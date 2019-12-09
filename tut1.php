@@ -79,6 +79,10 @@ define('PI', 3.1415);
             echo "is_finite(10) = " . is_finite(10) . "<br>";
             echo "is_infinite(log(0)) = " . is_infinite(log(0)) . "<br>";
             echo "is_numeric(\"10\") = " . is_numeric("10") . "<br>";
+
+
+            echo "sin(0) = " . sin(0) . "<br>";
+            echo number_format(12345.6789, 2) . "<br>";
          }
      }
      ?>
